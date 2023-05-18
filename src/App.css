@@ -1,41 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand", "Segoe UI", "Roboto", sans-serif;
+    color: #333;
+  }
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+  background: #3E1F1F;
+}
+
+.bg {
+  width: 900px;
+}
+
+.appHeader {
+  text-align: center;
+}
+
+.appTitle {
+  color: #E9BC84
+}
+
+.appSubTitle {
+  color: #EB6E6C
 }
 
 .chatbox {
+  margin-bottom: 10px;
+  border-radius: 25px;
   width: 100%;
-  max-width: 400px;
-  height: 400px;
+  height: 600px;
   border: 1px solid #ccc;
   margin-bottom: 10px;
-  padding: 10px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  padding-top: 15px;
 }
 
 .message {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  max-width: 80%;
 }
 
 .user-message {
   align-self: flex-end;
-  background-color: #007BFF;
+  background-color: #E9BC84;
   color: white;
 }
 
 .bot-message {
   align-self: flex-start;
-  background-color: #008000;
+  background-color: #EB6E6C;
   color: white;
 }
 
@@ -44,7 +69,7 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 900px;
 }
 
 input[type="text"] {
@@ -58,7 +83,6 @@ input[type="text"] {
 } 
 textarea {
   width: 100%;
-  padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -69,12 +93,27 @@ textarea {
 input[type="submit"] {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007BFF;
+  background-color: #FF7B43;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #FF6F32;
+}
+
+.suggestion-tile {
+  padding: 10px;
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
