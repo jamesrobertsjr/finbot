@@ -53,6 +53,17 @@ input[type="text"] {
   font-size: 16px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 40px;
+} 
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 60px;
 }
 
 input[type="submit"] {
