@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Query Form</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+      }
+
+      .container {
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+
+      .query-form {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .query-form input[type="text"],
+      .query-form textarea {
+          margin-bottom: 10px;
+          padding: 10px;
+          border: 1px solid #ccc;
+      }
+
+      .query-form input[type="submit"] {
+          background-color: #007BFF;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+      }
+
+      .query-form input[type="submit"]:hover {
+          background-color: #0056b3;
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Submit Your Query</h1>
+  <form class="query-form">
+    <input type="text" id="query" name="query" placeholder="Your Query">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
