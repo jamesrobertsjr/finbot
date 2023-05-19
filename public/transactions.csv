@@ -1,0 +1,33 @@
+﻿date,type,description,amount
+05/01/23,Income,Income: Salary,4000
+05/01/23,Expense,Grocery: Whole Foods,75.5
+05/02/23,Income,Income: Interest - Capital One Bank,25
+05/02/23,Expense,Shopping: Food - Daniel O'Connell's Restaurant,45.75
+05/03/23,Income,Income: Freelance Work,500
+05/03/23,Expense,Shopping: Amazon,120.9
+05/04/23,Income,Income: Dividend - Charles Schwab Bank,150
+05/04/23,Expense,Shopping: AMC Movies,35.2
+05/05/23,Expense,Shopping: Amazon,50
+05/05/23,Expense,Shopping: Barnes and Noble,15.7
+05/06/23,Income,Income: Ebay - Furniture Sale,100
+05/06/23,Expense,Shopping: Starbucks,8.5
+05/07/23,Expense,Shopping: Phone Bill,50
+05/07/23,Income,Income: Ebay - Computer Sale,500
+05/08/23,Income,Income: Ebay - Computer Sale,300
+05/08/23,Expense,Shopping: Phone Bill,50
+05/09/23,Income,Income: Freelance Work,800
+05/09/23,Expense,Shopping: Starbucks,12.5
+05/10/23,Income,Income: Salary,4000
+05/10/23,Expense,Grocery: Whole Foods,75.5
+05/11/23,Income,Income: Interest - Capital One Bank,25
+05/11/23,Expense,Shopping: Food - Daniel O'Connell's Restaurant,45.75
+05/12/23,Income,Income: Freelance Work,500
+05/12/23,Expense,Shopping: Amazon,120.9
+05/13/23,Income,Income: Dividend - Charles Schwab Bank,150
+05/13/23,Expense,Shopping: AMC Movies,35.2
+05/14/23,Expense,Shopping: Amazon,50
+05/14/23,Expense,Shopping: Barnes and Noble,15.7
+05/15/23,Income,Income: Ebay - Furniture Sale,100
+05/15/23,Expense,Shopping: Starbucks,8.5
+05/16/23,Expense,Shopping: Phone Bill,50
+05/16/23,Income,Income: Ebay - Computer Sale,500

@@ -3,6 +3,7 @@
 # dependencies
 .pnp
 .pnp.js
+OpenAI
 
 # testing
 /coverage
